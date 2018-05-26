@@ -6,4 +6,4 @@ Install OpenCV,Numpy
   sudo apt-get install cv2
   sudo apt-get install numpy
 
-<iframe src="https://giphy.com/embed/1Rj4bBQrQJy7vP3F23" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1Rj4bBQrQJy7vP3F23">via GIPHY</a></p>
+<a href="https://imgflip.com/gif/2b27g6"><img src="https://i.imgflip.com/2b27g6.gif" title="made at imgflip.com"/></a>
