@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
 import argparse
+import matplotlib
+
 from collections import deque
 
 cap = cv2.VideoCapture(0)
@@ -31,6 +33,7 @@ while True:
         if radius > 5:
             cv2.circle(img, (int(x), int(y)), int(radius), (0, 255, 255), 2)
             cv2.circle(img, center, 5, (0, 0, 255), -1)
+            print(x, y)
 
     pts.appendleft(center)
     for i in xrange(1, len(pts)):
@@ -47,5 +50,6 @@ while True:
     if k == 32:
         break
 # cleanup the camera and close any open windows
+
 cap.release()
 cv2.destroyAllWindows()
